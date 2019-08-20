@@ -178,7 +178,7 @@ class Kount_Ris_Response {
    *
    * @return float
    */
-  public function getOmniScore () {
+  public function getOmniscore () {
     return $this->safeGet('OMNISCORE');
   }
 
